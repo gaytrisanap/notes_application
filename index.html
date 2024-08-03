@@ -12,7 +12,7 @@
 
 </div>
 <div class="art-input-container">
-    <input type="text" placeholder="Write Your Note Here" class="art-input" id="art-input">
+    <input type="text" placeholder="Write Note" class="art-input" id="art-input">
     <button type="button" class="btn-add" onclick="addtask()">Add Note</button>
 </div>
     <script>
@@ -42,7 +42,7 @@ function showTasks() {
     <div class="art-task">
         ${task}
 
-        <button type="button" class="btn-remove" onclick="removetask('${task}')">Remove</button>
+        <button type="button" class="btn-remove" onclick="removetask('${task}')">Delete</button>
     </div>
     `
     }
